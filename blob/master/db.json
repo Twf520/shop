@@ -1,4 +1,6 @@
-@requestMapping(value="/login.do",produces = {"text/html;charset=utf-8"}) 
+URLDecoder.decode(URLDecoder.decode(json, "GBK"), "UTF-8");
+response.setContentType("text/html;charset=utf-8");
+json =new String(json.getBytes(),"UTF-8");
 {
     "list": [{
         "date": "2018-11-11",
@@ -43,18 +45,18 @@
     }, {
         "date": "2018-11-11",
         "name": "红酒",
-		"unit": "瓶",
-		"stock": "100",
-		"price": "300",
-		"cost": "188",
+	"unit": "瓶",
+	"stock": "100",
+	"price": "300",
+	"cost": "188",
         "address": "海外"
     }, {
         "date": "2018-11-11",
         "name": "鸡精",
-		"unit": "包",
-		"stock": "400",
-		"price": "6",
-		"cost": "4",
+	"unit": "包",
+	"stock": "400",
+	"price": "6",
+	"cost": "4",
         "address": "海外"
     }, {
         "date": "2018-11-11",
@@ -67,10 +69,10 @@
     }, {
         "date": "2018-11-11",
         "name": "白酒",
-		"unit": "箱",
-		"stock": "100",
-		"price": "300",
-		"cost": "158",
+	"unit": "箱",
+	"stock": "100",
+	"price": "300",
+	"cost": "158",
         "address": "西藏自治区 阿里地区 普兰县"
     }, {
         "date": "2018-11-11",
