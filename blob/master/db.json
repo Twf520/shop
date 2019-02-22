@@ -1,4 +1,4 @@
-@RequestMapping(value="/search",produces = "text/json;charset=UTF-8")
+@requestMapping(value="/login.do",produces = {"text/html;charset=utf-8"}) 
 {
     "list": [{
         "date": "2018-11-11",
